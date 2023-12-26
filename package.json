@@ -1,0 +1,29 @@
+{
+  "name": "github-modern-theme",
+  "displayName": "GitHub Modern Theme",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "partur",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Partut-dev/github-modern-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/primer/github-modern-vscode-theme/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHub Dark Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GitHub Dark Modern-color-theme.json"
+      }
+    ]
+  }
+}
